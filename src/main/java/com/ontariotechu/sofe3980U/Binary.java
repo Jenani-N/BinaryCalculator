@@ -115,7 +115,7 @@ public class Binary
 	 * @param num2 The second addend object
 	 * @return A binary variable with a value of <i>num1 AND num2</i>.
 	 */
-	//AND: Bitwise Logical AND
+
 	public static Binary AND(Binary num1,Binary num2){
 		//Convert Binary Objects values to int
 		String num1S=String.valueOf(num1.number);
@@ -136,16 +136,14 @@ public class Binary
 		return num3;
 	}
 
-
-
 	/**
 	 * Bitwise logic MULTIPLY
 	 *
 	 * @param num1 The first addend object
 	 * @param num2 The second addend object
-	 * @return A binary variable with a value of <i>num1 AND num2</i>.
+	 * @return A binary variable with a value of <i>num1 MULTIPLY num2</i>.
 	 */
-//MUL: Multiply
+
 	public static Binary MUL(Binary num1,Binary num2){
 		//Convert Binary Objects values to int
 		String num1S=String.valueOf(num1.number);
@@ -166,5 +164,4 @@ public class Binary
 		return num3;
 
 	}
-
 }	
